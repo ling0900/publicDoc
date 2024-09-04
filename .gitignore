@@ -1,1 +1,37 @@
-node_modules
+# Node.js dependencies
+/node_modules/
+
+# VuePress build output
+docs/.vuepress/dist/
+
+# VuePress cache
+docs/.vuepress/.cache/
+
+# VuePress temp files
+docs/.vuepress/.temp/
+
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# VuePress cache
+docs/.vuepress/.cache/
+
+# Optional: Ignore VSCode workspace settings
+.vscode/settings.json
